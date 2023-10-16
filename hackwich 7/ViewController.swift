@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func setLabelButtonPressed(_ sender: Any)
     {
-        
+        displayLabel.text = textField.text
     }
     
 }
